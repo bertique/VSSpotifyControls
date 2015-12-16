@@ -5,4 +5,6 @@ Inspired by the [Spotify extension for Visual Studio Code](https://marketplace.v
 
 Using the [SpotifyAPI-NET](https://github.com/JohnnyCrazy/SpotifyAPI-NET) to connect to Spotify.
 
-Download from the [Visual Studio Gallery](https://visualstudiogallery.msdn.microsoft.com)
+Download from the [Visual Studio Gallery](https://visualstudiogallery.msdn.microsoft.com/1a247035-7a2d-4c81-9b8d-cd70f79a77cc)
+
+
