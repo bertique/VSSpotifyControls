@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="VSSpotifyControls.Michael Dick.508a2cbc-3455-4533-a88a-eaea4de7350d" Version="1.0" Language="en-US" Publisher="Michael Dick" />
+    <DisplayName>VS Spotify Controls</DisplayName>
+    <Description xml:space="preserve">Skip songs on Spotify from Visual Studio. Move the toolbar button around or assign a keyboard shortcut for easy access.</Description>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Version="[14.0,15.0)" Id="Microsoft.VisualStudio.Pro" />
+    <InstallationTarget Version="[14.0,15.0)" Id="Microsoft.VisualStudio.Community" />
+    <InstallationTarget Version="[14.0,15.0)" Id="Microsoft.VisualStudio.Enterprise" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+    <Dependency Id="Microsoft.VisualStudio.MPF.14.0" DisplayName="Visual Studio MPF 14.0" d:Source="Installed" Version="[14.0]" />
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
+  </Assets>
+</PackageManifest>
